@@ -18,7 +18,7 @@ node{
             }
             
         sh 'docker push nguyenvantien0123/my-app:2.0.0'
-        sh 'docker run -p 8989:8080 -d --name my-app4 nguyenvantien0123/my-app:2.0.0'
+        sh 'docker run -p 9090:8080 -d --name my-app5 nguyenvantien0123/my-app:2.0.0'
      }
      
 }
